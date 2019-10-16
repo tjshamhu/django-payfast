@@ -74,7 +74,7 @@ class PayFastForm(HiddenForm):
     name_first = forms.CharField()
     name_last = forms.CharField()
     email_address = forms.CharField()
-    # TODO: cell_number
+    cell_number = forms.CharField()
 
     # Transaction Details
     m_payment_id = forms.CharField()
